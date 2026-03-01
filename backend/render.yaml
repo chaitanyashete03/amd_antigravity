@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: vyapaarai-backend
+    env: node
+    region: singapore # Closest to Mumbai free/standard tier in Render usually, or change to aws-mumbai if on team plan
+    plan: free
+    buildCommand: npm install
+    startCommand: node src/server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: PG_CONNECTION_STRING
+        sync: false
+      - key: MONGO_CONNECTION_STRING
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: LLM_API_KEY
+        sync: false
