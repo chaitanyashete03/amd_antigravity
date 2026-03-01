@@ -5,8 +5,8 @@
 By leveraging cutting-edge Retrieval-Augmented Generation (RAG) and Semantic Vector Search, VyapaarAI transforms a retailer's raw inventory and sales data into an interactive, multilingual conversational assistant.
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen.svg)](https://vyaparai.in)
-[![Frontend](https://img.shields.io/badge/Frontend-Vercel-black.svg)]()
-[![Backend](https://img.shields.io/badge/Backend-Render-blue.svg)]()
+[![Frontend](https://img.shields.io/badge/Frontend-Vercel-black.svg)](https://amd-antigravity.vercel.app/)
+[![Backend](https://img.shields.io/badge/Backend-Render-blue.svg)](https://vyapaarai-backend.onrender.com)
 
 ## 🚀 Key Features
 
